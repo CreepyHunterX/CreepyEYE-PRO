@@ -365,8 +365,6 @@ See [SECURITY.md](SECURITY.md) for the full responsible-use and hardening policy
 
 The app also has built-in diagnostics: **`creepyeye doctor`** checks licence, keys and environment.
 
-![Narrow terminal warning](PNG/creepyeye-pro-tui-small-terminal.png)
-
 ---
 
 ## Legal & EULA

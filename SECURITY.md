@@ -38,10 +38,9 @@ When running CreepyEYE PRO on a shared or production machine:
 | Control | Recommendation |
 |---------|----------------|
 | Official signed build | Use the installer from your CreepyCORE **License** page and verify its SHA-256 against `SHA256SUMS.txt`. Packaged builds enable production hardening automatically. |
-| `CREEPYEYE_PRODUCTION=1` | Enable production hardening when you run from source |
 | Activation cache | `~/.creepyeye_pro/` is restricted to your user (`0600` on Unix, `icacls` on Windows) — keep it that way |
 | Integrity recovery | If the app enters its protective locked state, recover with a signed recovery token issued by CreepyCORE support |
-| Local Web API | Stays on `127.0.0.1`; in production it requires `Authorization: Bearer <CREEPYEYE_WEB_API_TOKEN>` |
+
 
 ## SpiderFoot integration (TLS)
 
